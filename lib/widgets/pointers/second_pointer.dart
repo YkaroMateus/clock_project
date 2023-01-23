@@ -14,7 +14,7 @@ class _SecondPointerState extends State<SecondPointer> with TickerProviderStateM
 
   @override
   void initState() {
-    _controllerAnimation = AnimationController(vsync: this, duration: const Duration(seconds: 59))
+    _controllerAnimation = AnimationController(vsync: this, duration: const Duration(seconds: 60))
       ..repeat(reverse: false);
 
     super.initState();
