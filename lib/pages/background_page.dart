@@ -19,7 +19,7 @@ class _BackgroundPageState extends State<BackgroundPage> with TickerProviderStat
 
   @override
   void initState() {
-    _controllerAnimation = AnimationController(vsync: this, duration: const Duration(seconds: 40))
+    _controllerAnimation = AnimationController(vsync: this, duration: const Duration(seconds: 100))
       ..repeat(reverse: false);
 
     super.initState();

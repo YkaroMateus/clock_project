@@ -109,27 +109,24 @@ class _ClockViewState extends State<ClockView> {
                     ),
                   ),
                 ),
-                Positioned(
-                  bottom: 10,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      TimerTextIndicator(
-                        timer:
-                            '${DateTime.now().hour < 10 ? '0${DateTime.now().hour}' : DateTime.now().hour} :',
-                      ),
-                      const SizedBox(width: 10),
-                      TimerTextIndicator(
-                        timer:
-                            '${DateTime.now().minute < 10 ? '0${DateTime.now().minute}' : DateTime.now().minute} :',
-                      ),
-                      const SizedBox(width: 10),
-                      TimerTextIndicator(
-                        timer:
-                            '${DateTime.now().second < 10 ? '0${DateTime.now().second}' : DateTime.now().second}',
-                      ),
-                    ],
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TimerTextIndicator(
+                      timer:
+                          '${DateTime.now().hour < 10 ? '0${DateTime.now().hour}' : DateTime.now().hour} :',
+                    ),
+                    const SizedBox(width: 10),
+                    TimerTextIndicator(
+                      timer:
+                          '${DateTime.now().minute < 10 ? '0${DateTime.now().minute}' : DateTime.now().minute} :',
+                    ),
+                    const SizedBox(width: 10),
+                    TimerTextIndicator(
+                      timer:
+                          '${DateTime.now().second < 10 ? '0${DateTime.now().second}' : DateTime.now().second}',
+                    ),
+                  ],
                 ),
               ],
             ),
