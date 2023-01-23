@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../widgets/pointers/hour_pointer.dart';
 import '../widgets/pointers/minute_pointer.dart';
 import '../widgets/pointers/second_pointer.dart';
-import '../widgets/timer_indicator.dart';
+import '../widgets/timer_text_indicator.dart';
 
 class ClockView extends StatefulWidget {
   const ClockView({
@@ -114,17 +114,17 @@ class _ClockViewState extends State<ClockView> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      TimerIndicator(
+                      TimerTextIndicator(
                         timer:
                             '${DateTime.now().hour < 10 ? '0${DateTime.now().hour}' : DateTime.now().hour} :',
                       ),
                       const SizedBox(width: 10),
-                      TimerIndicator(
+                      TimerTextIndicator(
                         timer:
                             '${DateTime.now().minute < 10 ? '0${DateTime.now().minute}' : DateTime.now().minute} :',
                       ),
                       const SizedBox(width: 10),
-                      TimerIndicator(
+                      TimerTextIndicator(
                         timer:
                             '${DateTime.now().second < 10 ? '0${DateTime.now().second}' : DateTime.now().second}',
                       ),

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class TimerIndicator extends StatelessWidget {
+class TimerTextIndicator extends StatelessWidget {
   final String timer;
 
   final double? timerfontSize;
 
-  const TimerIndicator({
+  const TimerTextIndicator({
     required this.timer,
     this.timerfontSize,
     Key? key,
