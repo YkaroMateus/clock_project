@@ -1,0 +1,48 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.eslint": true,
+    },
+    "dartImport.fixOnSave": true,
+    "dartImport.showInfoMessages": false,
+    "dartImport.showErrorMessages": false,
+    "dart.updateImportsOnRename": true,
+    "dart.renameFilesWithClasses": "always",
+    "dart.lineLength": 110,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            200
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/*.fvm": true,
+    },
+    "dart.flutterSdkPaths": [
+        "C:/Users/Setimo/fvm/versions/"
+    ],
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "explorer.confirmDelete": false,
+    "dart.flutterHotReloadOnSave": "all",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 16,
+    "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "semantic-rainbow",
+    "workbench.statusBar.visible": true,
+}
